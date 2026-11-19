@@ -1,0 +1,14 @@
+# Rust
+/target
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+venv/
+.venv/
+
+# Local data / secrets
+*.db
+.env

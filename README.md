@@ -26,5 +26,10 @@ Database files are **not tracked in git** (see `.gitignore`). Each device/enviro
 
 ## Notes
 
+- `setup.sh` auto-detects the environment (Termux, WSL, generic Linux, or Windows) and runs the matching steps.
+- **On Windows**, run it from **Git Bash** (bundled with Git for Windows) — `.sh` scripts do not run in CMD/PowerShell directly:
+  ```bash
+  bash setup.sh
+  ```
 - Edit `setup.sh` per project: keep only the toolchain sections this project needs.
 - `.gitattributes` normalizes line endings (LF) across Windows/Linux.

@@ -4,6 +4,16 @@ One-line description of the project.
 
 ## Setup
 
+### Starting a new project from this template
+
+```bash
+git clone https://github.com/ariecav/project-template.git nama-project-baru
+cd nama-project-baru
+rm -rf .git && git init   # putus dari history template, mulai history baru
+```
+
+### Setup environment (new project or existing clone)
+
 ```bash
 git clone <repo-url>
 cd <folder>
